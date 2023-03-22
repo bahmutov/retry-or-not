@@ -4,6 +4,10 @@
 
 📝 Read the blog post [Retry Or Not](https://glebbahmutov.com/blog/retry-or-not/)
 
+![Test retries](./images/retries.png)
+
+[Cypress test retries](https://on.cypress.io/test-retries)
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2023

@@ -10,6 +10,8 @@ it('retries this test', { retries: 2, defaultCommandTimeout: 1000 }, () => {
 
 afterEach(() => {
   cy.log('**after each**')
+  // if the test failed because of cy.visit command
+  // disable the test retries
   if (cy.state('test').state === 'failed') {
     console.log(cy.state('test').err)
     if (cy.state('test').err.message.includes('cy.visit')) {
