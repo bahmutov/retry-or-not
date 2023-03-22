@@ -1,13 +1,14 @@
 {
   "name": "retry-or-not",
   "version": "1.0.0",
-  "description": "",
+  "description": "How to dynamically determine if a Cypress test should be retried or not based on the error",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gleb Bahmutov",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.8.1",
